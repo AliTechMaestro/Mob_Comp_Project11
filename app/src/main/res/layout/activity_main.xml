@@ -14,25 +14,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:layout_marginTop="44dp"
 
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="129dp"
         android:padding="20dp"
-        android:text="Start Quiz"
+        android:text="@string/start"
         android:textSize="22sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="402dp"
-        android:layout_height="387dp"
+        android:id="@+id/imageView"
+        android:layout_width="404dp"
+        android:layout_height="388dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnStart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/homebg" />
+        app:srcCompat="@drawable/quran" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

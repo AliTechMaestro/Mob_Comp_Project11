@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Knowledge_Tester</string>
     <string name="ques">Questions will be Here</string>
+    <string name="start">Start Quran Quiz</string>
+
     <string name="radio">Knowledge_Tester</string>
-    <string name="submit">Submit</string>
+    <string name="next">Next</string>
 
 </resources>
