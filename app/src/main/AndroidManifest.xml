@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Knowledge_Tester">
         <activity
-            android:name=".QuizActivity"
+            android:name=".MainActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

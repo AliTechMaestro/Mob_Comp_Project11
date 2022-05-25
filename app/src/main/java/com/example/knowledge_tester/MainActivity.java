@@ -21,11 +21,10 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this,QuizActivity.class);
+                Intent intent = new Intent(MainActivity.this,MainActivity2.class);
                 startActivity(intent);
             }
         });
-
 
     }
 }

@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".QuizActivity">
+    tools:context=".MainActivity2">
 
 
     <TextView
         android:id="@+id/quesNum"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="144dp"
         android:layout_marginTop="16dp"
         android:text="Question: 1/n"
         android:textColor="#673AB7"
@@ -20,12 +20,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/Marks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="24dp"
         android:text="Marks: 0"
         android:textColor="#138A06"
         android:textSize="20sp"
@@ -33,23 +34,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/quesNum" />
 
-    <TextView
-        android:id="@+id/timer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="25dp"
-        android:text="00:20"
-        android:textColor="#E80707"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
     <RadioGroup
-        android:id="@+id/radioGroup"
+        android:id="@+id/radioGrp"
         android:layout_width="375dp"
         android:layout_height="217dp"
         android:layout_marginStart="16dp"
@@ -66,7 +52,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="32dp"
             android:text="Option 1"
-            android:textColor="#FF9800"
+
             android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Ques" />
@@ -78,7 +64,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="6dp"
             android:text="Option 2"
-            android:textColor="#FF9800"
+
             android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Ques" />
@@ -90,7 +76,7 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="6dp"
             android:text="Option 3"
-            android:textColor="#FF9800"
+
             android:textSize="20dp"
             tools:layout_editor_absoluteX="52dp"
             tools:layout_editor_absoluteY="341dp" />
@@ -104,7 +90,7 @@
         android:layout_marginTop="59dp"
         android:layout_marginEnd="60dp"
         android:text="@string/ques"
-        android:textColor="#535667"
+        android:textColor="#076AB8"
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -115,15 +101,15 @@
         android:layout_width="300dp"
         android:layout_height="59dp"
 
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="48dp"
         android:backgroundTint="#292557"
         android:letterSpacing="0.3"
         android:text="@string/next"
         android:textSize="25sp"
         app:cornerRadius="18dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGrp" />
 
     />
 
